@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>毕业设计管理系统</title>
+						<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+ 
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+ 
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<style>
+			body{
+				background-color: #1E9FFF;
+			}
+			#loginDIV{
+				background-color: white;
+				width: 550PX;
+				height: 530PX;
+				margin: 0 auto;
+				color: black;
+				margin-top: 100px;
+				text-align: center;
+				padding-top: 20px;
+				
+			}
+			
+			
+			#uname{
+				width: 426px;
+				height: 55px;
+				border-radius: 5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 30px;
+				margin-top: 11px;
+				}
+				#upsw{width: 426px;
+				height: 55px;
+				border-radius: 5px;
+				border: 1px solid lightgray;
+				margin-left: -30px;
+				background-color: transparent;
+				padding-left: 30px;
+				margin-top: 11px;
+					
+				}
+				#longinBtn{
+					width: 416px;
+					height: 55px;
+					margin-top: 11px;
+					background-color: orangered;
+					border: 1px solid orangered;
+					border-radius: 5px;
+					color: white;
+					
+					
+					
+				}
+				#bottomDiv{
+					color: black;
+					margin-top: 20px;
+				}
+		</style>
+	</head>
+	<body>
+		<div id="loginDIV">
+			<img src="images/nuc.png"  width="220px" height="80px" />
+			<h1>毕业设计管理系统</h1>
+			<img src="images/user.png" />
+			<input placeholder="用户名" type="text" id="uname" name="username" /><br />
+			<img src="../Day03/images/password.png" />
+			<input type="password" id="upsw" name="userpsw" /><br />
+			<button id="longinBtn">登录</button><br />
+			<a href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&response_type=code&redirect_uri=http%3A%2F%2Fspcdp.cdposs.qq.com%2Fauth%2Fcallback&client_id=101477813&state=http%3A%2F%2Fspcdp.cdposs.qq.com%2F"><img src="images/qq.png" /></a>
+			<a href="https://wx.qq.com/"><img src="images/weixin.png" ></a>
+			<a href="https://login.sina.com.cn/signup/signin.php"> <img src="images/weibo.png" /></a>
+			<div id="bottomDiv" >开发者:杜庭巍 中北大学软件学院</div>
+		  
+		</div>
+	</body>
+</html>
